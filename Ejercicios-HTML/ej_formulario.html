@@ -21,14 +21,14 @@
 <form id="formulario_suscripcion">
     <p>
 
-Nombre: <input type="text" name="nombre" placeholder="nombre">
+<label for="nombre"> Nombre:</label> <input type="text" name="nombre" placeholder="nombre"id="nombre">
     </p>
     <p>
-        Apellido: <input type="text" name="apellido"placeholder="apellido">
+        <label for="apellido"> Apellido:</label> <input type="text" name="apellido"placeholder="apellido"id="apellido">
     </p>
 <p>
-Sexo: Masculino  <input type="radio" name="name" value="masculino">
-    femenino <input type="radio" name="name" value="femenino">
+    <label for="masculino">Sexo: Masculino</label>  <input type="radio" name="name" value="masculino"id="masculino">
+    <label for="femenino">femenino </label> <input type="radio" name="name" value="femenino"id="femenino">
 </p>
     <p>
 Edad: <input type="number" name="edad"placeholder="edad">
@@ -47,16 +47,17 @@ Password: <input type="password"name="contraseña"placeholder="contraseña">
 Confirmar Password:  <input type="password"name="confirmar_contra"placeholder="confirmar contraseña">
     </p>
     <p>
-Tipo de servicio: Free<input type="checkbox"name="tipo_servicio" value="free">
-        / Standard<input type="checkbox"name="tipo_servicio" value="standar">
-        / Premium<input type="checkbox"name="tipo_servicio" value="premiun">
+Tipo de servicio: <label for="free"> free</label> <input type="checkbox"name="tipo_servicio" value="free"id="free">
+         <label for="standar">standar</label> <input type="checkbox"name="tipo_servicio" value="standar"id="standar">
+        <label for="premiun">premiun</label> <input type="checkbox"name="tipo_servicio" value="premiun"id="premiun">
     </p>
     <p>
-Tema:<select>
-       <option> Política</option>
-       <option>Negocios</option>
-        <option>Tecnología</option>
-        <option> Salud </option>
+        <label for="tema">tema:</label>
+<select id="tema">
+       <option value="politica"> política</option>
+       <option value="negocios">negocios</option>
+        <option value="tecnologia">tecnología</option>
+        <option value="salud"> salud </option>
     </select>
     </p>
 
